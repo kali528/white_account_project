@@ -28,6 +28,6 @@
 		<body>
 			<div class="container">
 
-				<header>
+				<header style="background-color:#ccffcc;color:#00cc00;">
 				   <h1>Hello! This is the main page of Brick's Core application!</h1>
 				</header>
