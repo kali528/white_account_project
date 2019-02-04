@@ -1,4 +1,4 @@
-			<footer style="background-color:#ccffcc;color:#00cc00;">Copyright &copy; Kali528</footer>
+			<footer>Copyright &copy; $asd.com</footer>
 
 		</div>
 
