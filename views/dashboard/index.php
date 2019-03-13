@@ -12,6 +12,23 @@
   		<input type="email" name="email" id="email" required placeholder="Enter your name">
   		<label id="number-label">* Age</label>
   		<input type="number" name="age" id="number" min="16" max="120" required placeholder="Enter your email">
+  			<label>How did you find out about rock/metal music?
+  			<select id="dropdown">
+  			<option disabled selected>Select an option</option>
+  			<option>Friend</option>
+  			<option>Radio</option>
+  			<option>TV</option>
+  			<option>Internet</option>
+  			<option>School</option>
+  			<option>Other</option>
+  			</select>
+  		</label>
+  		<label>Do you like it?
+  			<input type="radio" name="radio-buttons">Yes
+  			<input type="radio" name="radio-buttons">No
+  		</label> 		
+  		
+
 
   		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </article>
