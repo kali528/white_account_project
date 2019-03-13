@@ -24,11 +24,15 @@
   			</select>
   		</label>
   		<label>Do you like it?
-  			<input type="radio" name="radio-buttons">Yes
-  			<input type="radio" name="radio-buttons">No
-  		</label> 		
-  		
-
-
+  			<input type="radio" name="radio-buttons" value="1">Yes
+  			<input type="radio" name="radio-buttons" value="2">No
+  		</label>
+  		<label>Which genre you prefer?
+  			<input type="checkbox" name="checkbox" value="1">Alternative
+  			<input type="checkbox" name="checkbox" value="2">Black
+  			<input type="checkbox" name="checkbox" value="3">Death
+  		</label>
+  		<textarea></textarea>
+  		<button id="submit">Submit</button>
   		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </article>
