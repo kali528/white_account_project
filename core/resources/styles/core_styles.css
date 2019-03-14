@@ -97,3 +97,9 @@ article {
   border-radius: 15px;
   margin: 15px;
 }
+.radio, .checkbox {
+  position: relative;
+  display: block;
+  left: -20px;
+  top: -10px;
+}

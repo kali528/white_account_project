@@ -3,7 +3,7 @@
   <h1>Bricks Core</h1>
   <p>Bricks Core is an abstract application. It lets you build and add new modules absolutely indipendent eaeach other. The proccess is the same as build a wall.</p>
   -->
-    <h1 id="title">Survey form</h1>
+        <h1 id="title">Survey form</h1>
   		<form id="survey-form">
   		<p id="description">Let me know your favorite metal/rock music genre</p>
       <div class="left"><label id="name-label">* Name</label></div>
@@ -23,10 +23,10 @@
   			<option value="6">Other</option>
         </select></div>
   		<div class="left"><label>Do you like it?</label></div>
-  			<div class="right">
-  			<input type="radio" name="radio-buttons" class="radio" value="1">Yes
-  			<input type="radio" name="radio-buttons" class="radio" value="2">No
-  			</div>
+  			<div class="right"><ul style="list-style: none;" class="radio">
+  		    	<li><input type="radio" name="radio-buttons" value="1">Yes</li>
+                <li><input type="radio" name="radio-buttons" value="2">No</li>
+  			</ul></div>
   		<div class="left"><label>Which genre you prefer?</label></div>
   			<div class="right"><ul style="list-style: none;" class="checkbox">
   				<li><input type="checkbox" name="checkbox" value="1">Alternative</li>
