@@ -63,3 +63,37 @@ article {
 		background: #ffc107;
 		color: black;
 }
+
+.article {
+  text-align: center;
+  margin: auto;
+  background-color: #00cccc;
+}
+#survey-form {
+  background-color: white;
+  border-radius: 15px;
+  margin: auto;
+  padding: 10px;
+  width: 60%;
+}
+.right {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+.left {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+#submit {
+  background-color: #00cccc;
+  border-radius: 15px;
+  margin: 15px;
+}
